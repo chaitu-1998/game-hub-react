@@ -4,8 +4,8 @@ import { useState,useEffect } from 'react';
 
 function OddorEven() {
   const OddEven = ['Even','Odd'];
-  const [UserInputNumber,setUserInputNumber] = useState(1);
-  const [computerNumber,setComputerNumber] = useState(1);
+  const [UserInputNumber,setUserInputNumber] = useState();
+  const [computerNumber,setComputerNumber] = useState();
   const [userCount, setUserCount] = useState(0);
   const [computerCount, setComputerCount] = useState(0);
   const [result,setResult] = useState('Press Num to Play');

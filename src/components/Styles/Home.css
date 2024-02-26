@@ -1,13 +1,12 @@
 .game-List
 {
     margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 .games{
-    
-    border-radius: 20px;
-    float: inline-start;
-    margin-left: 20px;
-    margin-top: 20px;
+    color: black;
     width: 300px;
     height: 250px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
@@ -16,4 +15,7 @@
     width: 300px;
     height: 190px;
     border-radius: 20px;
+}
+.games:hover{
+    transform: scale(1.1);
 }
