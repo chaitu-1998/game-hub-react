@@ -1,0 +1,91 @@
+.Game-board
+{
+    height: 600px;
+    margin-top: 50px;
+}
+.UserInput{
+    float: inline-start;
+    height: 450px;
+    width: 500px;
+}
+.ComputerOutput
+{
+    
+    float: inline-start;
+    height: 450px;
+    width: 500px;
+}
+.ScoreBoard
+{
+    
+    float: inline-start;
+    width: 1181px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.UserContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonstyle{
+    
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+button{
+    margin: 10px 20px 0px 0px;
+    height: 103px;
+    border: none;
+    background-color: black;
+    color: #eeb879;
+    box-shadow: 9px 9px 20px 0px #887c7d;
+}
+button:hover{
+    color: aliceblue;
+    background-color: #777575;
+    font-size: xx-large;
+}
+.UserInputData{
+    width: 185px;
+    box-shadow: 9px 9px 20px 0px #3d3d3d;
+    background: black;
+    color: antiquewhite;
+    height: 330px;
+    margin-top: 9px;
+    margin-left: 23px;
+}
+.YourScore{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ComputerScore{
+    display: flex;
+    justify-content: space-evenly;
+}
+.YourPick>img{
+    height: 230px;
+    width: 184px;
+}
+
+.ComputerPick>img{
+    height: 230px;
+    width: 184px;
+    transform: scaleX(-1.5);
+    margin-top: 55px;
+    border: none;
+}
+.ComputerPick{
+    margin-top: 30px;
+    height: 330px;
+    width: 276px;
+    margin-left: 112px;
+    background-color: black;
+    box-shadow: 9px 9px 20px 0px #3d3d3d;
+}

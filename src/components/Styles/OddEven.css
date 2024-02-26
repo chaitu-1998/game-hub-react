@@ -1,0 +1,49 @@
+
+
+.YourPickOE>h3{
+    height: 160px;
+    font-size: 115px;
+    margin-top: 35px;
+    
+}
+.UserInputDataOE
+{
+    width: 185px;
+    box-shadow: 9px 9px 20px 0px #3d3d3d;
+    background: black;
+    color: antiquewhite;
+    height: 330px;
+    margin-top: 9px;
+    margin-left: 23px;
+}
+.UserInputDataOE>h3{
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+.ComputerPickOE
+{
+    height: 330px;
+    width: 276px;
+    background-color: black;
+    box-shadow: 9px 9px 20px 0px #3d3d3d;
+    margin: 5px 1px 30px 116px;
+}
+/* .ComputerPickOE>h3{
+    border: 1px solid red;
+    height: 100px;
+    color: antiquewhite;
+    height: 160px;
+    font-size: 115px;
+    margin: 69px 45px 0px 48px;
+    position: fixed;
+} */
+.computerOutputh3{
+    color: #eeb879;
+    font-size: 240px;
+    margin-top: 10px;
+}
+.ComputerOutput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
